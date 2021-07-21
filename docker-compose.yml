@@ -9,4 +9,4 @@ services:
     environment:
       - POSTGRES_USER=dragofire
       - POSTGRES_PASSWORD=qwerty123
-      - POSTGRES_DB=first_docker
+      - POSTGRES_DB=docker
