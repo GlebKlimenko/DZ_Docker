@@ -1,0 +1,12 @@
+version: '20.10.7'
+services:
+  postgres:
+    image: postgres:12-alpine
+    ports:
+      - 9999:9999
+    volumes:
+      - ./postgres_data:/var/lib/postgres
+    environment:
+      - POSTGRES_USER=dragofire
+      - POSTGRES_PASSWORD=qwerty123
+      - POSTGRES_DB=first_docker
